@@ -28,5 +28,5 @@ def find_the_cheese(array)
   puts "#{array.find {|snack| cheese_types.include?(snack)}}"
 end
 
-yummy = ["hummus", "pretzels"]
+yummy = ["hummus", "pretzels", "gouda"]
 find_the_cheese(yummy)
